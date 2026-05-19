@@ -1,1 +1,14 @@
+public class Bottle {
+  double capacity;
+  double amount;
 
+  public Bottle(double c) {
+    capacity = c;
+    amount = c;
+  }
+  
+  public updateAmount(double a) {
+
+
+  }
+}
