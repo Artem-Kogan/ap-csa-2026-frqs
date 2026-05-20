@@ -1,9 +1,5 @@
-# AP Computer Science A - 2026 FRQ Solutions
-My solutions to the 2026 AP CS A Free Response Questions,
-completed as a post-exam project at FDR High School.
-## Questions
- - Question 1: [Account.java]
- - Question 2: [Bottle.java]
- - Question 3: [Attendance.java]
- - Question 4: [Space.java]
-## Reflection
+# Question 1: [Account.java]
+## My Approach
+1a
+
+Part 1a of Question 1 was fairly straightforward in my opinion. All it required was checking if the inputted username was available, and if not, replacing consecutive numbers at the end of the username until it becomes available. 
