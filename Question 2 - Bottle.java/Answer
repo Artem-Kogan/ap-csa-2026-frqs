@@ -7,8 +7,11 @@ public class Bottle {
     amount = c;
   }
   
-  public updateAmount(double a) {
-
-
+  public double updateAmount(double a) {
+    amount -= a;
+    if (amount < capacity * 0.25) {
+      amount = capacity;
+    }
+    return amount;
   }
 }
